@@ -1,12 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
- <title>My Gaming Site</title>
-  <link rel="stylesheet" href="style.css">
-  </head>
-</head>
-<body>
-  <h1>Welcome to My Gaming Website</h1>
-  <button onclick="alert('Game starting!')">Play</button>
-</body>
-</html>
+body {
+  background: #0f0f0f;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+}
