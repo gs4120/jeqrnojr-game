@@ -1,144 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🍌 Banana</title>
-
-<style>
-:root{
-  --banana:#FFD54A;
-  --brown:#6D4C41;
-  --dark:#3E2723;
-  --light:#FFF8E1;
-}
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:Arial, sans-serif;
-}
-
-body{
-  background:var(--light);
-  color:var(--dark);
-}
-
-header{
-  background:var(--banana);
-  padding:25px;
-  text-align:center;
-  box-shadow:0 4px 10px rgba(0,0,0,.15);
-}
-
-header h1{
-  font-size:3rem;
-}
-
-.search{
-  display:flex;
-  justify-content:center;
-  margin:20px;
-}
-
-.search input{
-  width:350px;
-  padding:12px;
-  border-radius:12px;
-  border:2px solid var(--brown);
-}
-
-.games{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
-  gap:20px;
-  padding:20px;
-}
-
-.card{
-  background:white;
-  border-radius:20px;
-  padding:15px;
-  text-align:center;
-  box-shadow:0 4px 12px rgba(0,0,0,.1);
-  transition:.2s;
-}
-
-.card:hover{
-  transform:translateY(-5px);
-}
-
-.card img{
-  width:100%;
-  border-radius:12px;
-}
-
-.card button{
-  background:var(--banana);
-  border:none;
-  padding:10px 18px;
-  border-radius:10px;
-  cursor:pointer;
-  margin-top:10px;
-  font-weight:bold;
-}
-
-.card button:hover{
-  background:#FFC107;
-}
-
-footer{
-  margin-top:40px;
-  background:var(--brown);
-  color:white;
-  text-align:center;
-  padding:15px;
-}
-</style>
+  <title>My Web Hub</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
+    <h1>Web Hub</h1>
 
-<header>
-  <h1>🍌 Banana</h1>
-  <p>Your Favorite Game Portal</p>
-</header>
+    <input placeholder="Search..." />
 
-<div class="search">
-  <input type="text" placeholder="Search games...">
-</div>
-
-<section class="games">
-
-  <div class="card">
-    <h3>Game 1</h3>
-    <p>Arcade</p>
-    <button>Play</button>
+    <div class="buttons">
+      <button onclick="go('https://example.com')">Tool 1</button>
+      <button onclick="go('https://example.com')">Tool 2</button>
+      <button onclick="go('https://example.com')">Tool 3</button>
+    </div>
   </div>
 
-  <div class="card">
-    <h3>Game 2</h3>
-    <p>Puzzle</p>
-    <button>Play</button>
-  </div>
-
-  <div class="card">
-    <h3>Game 3</h3>
-    <p>Racing</p>
-    <button>Play</button>
-  </div>
-
-  <div class="card">
-    <h3>Game 4</h3>
-    <p>Idle</p>
-    <button>Play</button>
-  </div>
-
-</section>
-
-<footer>
-  🍌 Banana Game Portal
-</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
