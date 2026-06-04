@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Gaming Site</title>
+ <title>My Gaming Site</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
 </head>
 <body>
   <h1>Welcome to My Gaming Website</h1>
