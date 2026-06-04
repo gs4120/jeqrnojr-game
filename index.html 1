@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Gaming Site</title>
+</head>
+<body>
+  <h1>Welcome to My Gaming Website</h1>
+  <button onclick="alert('Game starting!')">Play</button>
+</body>
+</html>
